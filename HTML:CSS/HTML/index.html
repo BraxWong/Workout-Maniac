@@ -15,8 +15,12 @@
     #User_login{
         margin-left: 300px;
     }
-    #back_img{
-        width: 200;
+
+    table,thead,tbody,tr,th,td{
+        border: 1px solid black
+    }
+    img {
+        width: 250px;
     }
 </style>
 <body>
@@ -26,21 +30,57 @@
         </h1>  
     </div>
 
-    <div id="Back_Bicep">   <!--This is a div for back,bicep day -->
-        <h2 id="Back_Day_Header">Back/Bicep Day</h1>
-            <img id= "back_img"src="https://www.muscleandfitness.com/wp-content/uploads/2019/05/man-gym-lat-pulldown-1109.jpg?w=1109&h=614&crop=1&quality=86&strip=all">     <!--This is an image tag, it closes on its own  -->    
-            <ul id="Back_Day_Exercise">
-                <li>Lateral Pulldown</li>
-                <li>Vertical Pull</li>
-                <li>Chest Supported Row</li>
-                <li>Deadlift</li>
-                <li>Pull-Up</li>
-                <li>Bent-Over Row</li>
-                <li>Single-Arm Dumbbell Row</li>
-            </ul>
-            <a href="Backday.html">Learn more</a>    <!--This is an anchor tag, which will redirect you to another page when being clicked on  --> 
+        <table>
+            <thead> <!--Table heading-->
+                <tr>    <!--Table row-->
+                    <td>    <!--Table data-->
+                        <h2 id="Back_Day_Header">Back/Bicep Day</h1>
+                    </td>
+                    <td>
+                        <h2 id="Chest_Day_Header">Chest Day</h2>
+                    </td>
+                    <td>
+                        <h2 id="Leg_day_Header">Leg Day</h2>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        <img id= "back_img" src="IMG/Back_img.jpg">     <!--This is an image tag, it closes on its own  -->    
+                        <ul id="Back_Day_Exercise">
+                            <li>Lateral Pulldown</li>
+                            <li>Vertical Pull</li>
+                            <li>Chest Supported Row</li>
+                            <li>Deadlift</li>
+                            <li>Pull-Up</li>
+                            <li>Bent-Over Row</li>
+                            <li>Single-Arm Dumbbell Row</li>
+                        </ul>
+                        <a href="Backday.html">Learn more</a>    <!--This is an anchor tag, which will redirect you to another page when being clicked on  --> 
+                    </th>
+                    <th>
+                        <img id="chest_img"src="IMG/chest_img.jpg">
+                        <ul id="Chest_Day_Exercise">
+                            <li>
+                                
+                            </li>
+                        </ul>
+                    </th>
+                    <th>
+                        <img id="leg_img" src="IMG/Leg_img.jpg">
+                        <ul id="Leg_Day_Exercise">
+                            <li>
 
-    </div>
+                            </li>
+                        </ul>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+       
+           
+
    
 
     
