@@ -1,0 +1,20 @@
+.Header{
+    background-color: blue;
+    height: 200px;
+    color: white;
+    font-size: 85px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+h1 {
+    text-align: center;
+}
+table,thead,tbody,tr,th,td{
+    border: 1px solid black;
+    margin-left: 290px;
+    font-size: 25px;
+    width: 500;
+    align-self: center;
+}
