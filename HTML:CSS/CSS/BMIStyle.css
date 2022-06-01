@@ -18,3 +18,104 @@ table,thead,tbody,tr,th,td{
     width: 500;
     align-self: center;
 }
+h2{
+    text-align: center;
+}
+
+#Calculator{
+    border-style: solid;
+    height: 300px;
+}
+
+#cal_input{
+    margin-top: 125px;
+    margin-left: 425px;
+    font-size: 30px;
+}
+
+#height{
+    margin-left:4px;
+}
+#BMI_bar{
+    border: 10px solid black;
+    align-self: center;
+}
+#I1{
+    background-color: rgba(65, 18, 53);
+}
+#I2{
+    background-color: rgba(75, 18, 53);
+}
+#I3{
+    background-color: rgba(85, 18, 53);
+}
+
+#I4{
+    background-color: rgba(95, 18, 53);
+}
+#I5{
+    background-color: rgba(105, 18, 53);
+}
+#I6{
+    background-color: rgba(115, 18, 53);
+}
+#I7{
+    background-color: rgba(125, 18, 53);
+}
+#I8{
+    background-color: rgba(135, 18, 53);
+}
+#I9{
+    background-color: rgba(145, 18, 53);
+}
+#I10{
+    background-color: rgba(155, 18, 53);
+}
+#I11{
+    background-color: rgba(165, 18, 53);
+}
+#I12{
+    background-color: rgb(171, 14, 45);
+}
+#I13{
+    background-color: rgb(195, 18, 53);
+}
+#I14{
+    background-color: rgba(170, 255, 1, 0.929);
+}
+#I15{
+    background-color: rgba(185, 255, 1, 0.929);
+}
+#I16{
+    background-color: rgba(200, 255, 1, 0.929);
+}
+#I17{
+    background-color: rgba(204, 255, 1, 0.929);
+}
+#I18{
+    background-color: rgba(11, 244, 62, 0.929);
+}
+#I19{
+    background-color: rgba(12, 239, 61, 0.929);
+}
+#I20{
+    background-color: rgba(10, 235, 43, 0.929);
+}
+#I21{
+    background-color: rgba(10, 218, 45, 0.929);
+}
+#I22{
+    background-color: rgba(12, 180, 61, 0.929);
+}
+#I23{
+    background-color: rgba(24, 147, 49, 0.929);
+}
+#I24{
+    background-color: rgba(24, 76, 19, 0.929);
+}
+#I25{
+    background-color: crimson;
+}
+#BMI_bar{
+    margin-right: 800px;
+}
