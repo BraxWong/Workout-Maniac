@@ -3,10 +3,12 @@
     height: 200px;
     color: white;
     font-size: 85px;
+    font-family: open-sans;
 }
 p{
     text-align: center;
     font-size: 25px;
+    font-family: open-sans;
 }
 h1 {
     text-align: center;
@@ -117,4 +119,11 @@ h2{
 }
 #Results{
     margin-right: 400px;
+}
+#text{
+   text-align: left;
+   font-family: open-sans;
+}
+body{
+    background-image: url(/HTML:CSS/HTML/IMG/BMI.jpg);
 }
