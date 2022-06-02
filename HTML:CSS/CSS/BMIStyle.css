@@ -24,11 +24,11 @@ h2{
 
 #Calculator{
     border-style: solid;
-    height: 300px;
+    height: 500px;
 }
 
 #cal_input{
-    margin-top: 125px;
+    margin-top: 85px;
     margin-left: 425px;
     font-size: 30px;
 }
@@ -38,7 +38,6 @@ h2{
 }
 #BMI_bar{
     border: 10px solid black;
-    align-self: center;
 }
 #I1{
     background-color: rgba(65, 18, 53);
@@ -115,4 +114,7 @@ h2{
 }
 #I25{
     background-color: crimson;
+}
+#Results{
+    margin-right: 400px;
 }
