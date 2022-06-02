@@ -11,3 +11,17 @@ function Calculate() {
     }
     
 }
+function Calculate_BFP() {
+    var BMI = document.getElementById("BMI").value
+    var age = document.getElementById("Age").value
+    var gender = document.getElementById("Gender").value.toUpperCase()
+    if(gender == "M"){
+        var BFP = (1.20 * BMI) + (0.23 * age) - 16.2
+    }
+    else if(gender == "F"){
+        var BFP = (1.20 * BMI) + (0.23 * Age) - 5.4
+    }
+    else {
+        alert("Error! I can only take either M or F as an input")
+    }
+}
