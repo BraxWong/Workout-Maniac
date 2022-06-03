@@ -115,3 +115,7 @@ function Calculate_BFP() {
         alert("Error! I can only take either M or F as an input")
     }
 }
+
+function openWin() {
+    window.location.href = "/HTML:CSS/HTML/Login_Membership/Login.html"
+}
