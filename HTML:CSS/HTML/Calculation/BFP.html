@@ -8,19 +8,43 @@
     <link rel="stylesheet" href="/HTML:CSS/CSS/BFP.css">
 </head>
 <body>
-    <center class = "Header" >Body Fat Percentage Calculator</center>
-    <p>First and foremost, you are going to need your BMI calculated in order to get your body fat percentage. If you have already done that, that's awesome! But if you have not, you can click <a href="BMI.html">here</a> to calculate it.  </p>
+    <center class = "Header" >HOW TO CALCULATE YOUR IDEAL BODY FAT PERCENTAGE</center>
+    <h1 class="line">-</h1>
+    <img src="/HTML:CSS/HTML/IMG/BMI.jpg">
+    <br><br><br><br>
     <h1> What is body fat percentage?</h1>
     <p>Body fat percentage is the percentage of your wight that is made up of fat. It consists of both storage body fat and essential body fat. There are severl ways in calculating body fat percentage, including bioelectrical impledance analysis, skin-fold methods and so on. </p>
-    <h2>Part 1: Know the recommended/average body fat percentage ranges</h2>
+    <br><br><br>
+    <h1>Preparation</h2>
+    <p>First and foremost, you are going to need your BMI calculated in order to get your body fat percentage. If you have already done that, that's awesome! But if you have not, you can click <a href="BMI.html">here</a> to calculate it.  </p>
+    <br><br><br>
+    <h1>Part 1: Know the recommended/average body fat percentage ranges</h2>
     <p>Women: </p>
-    <p>20-40 yrs old: Underfat: under 21 percent, Healthy: 21-33 percent, Overweight: 33-39 percent, Obese: Over 39 percent</p>
-    <p>41-60 yrs old: Underfat: under 23 percent, Healthy: 23-35 percent, Overweight : 35-40 percent Obese: over 40 percent</p>
-    <p>61-79 yrs old: Underfat: under 24 percent, Healthy: 24-36 percent, Overweight: 36-42 percent, Obese: over 42 percent</p>
+    <p> • 20-40 yrs old: Underfat: under 21 percent, Healthy: 21-33 percent, Overweight: 33-39 percent, Obese: Over 39 percent</p>
+    <p> • 41-60 yrs old: Underfat: under 23 percent, Healthy: 23-35 percent, Overweight : 35-40 percent Obese: over 40 percent</p>
+    <p> • 61-79 yrs old: Underfat: under 24 percent, Healthy: 24-36 percent, Overweight: 36-42 percent, Obese: over 42 percent</p>
     <br><br>
     <p>Men: </p>
-    <p>20-40 yrs old: Underfat: under 8 percent, Healthy: 8-19 percent, Overweight: 19-25 percent, Obese: over 25 percent</p>
-    <p>31-60 yrs old: Underfat: under 11 percent, Healthy: 11-22 percent, Overweight: 22-27 percent, Obese: over 27 percent</p>
-    <p>61-79 yrs old: Underfat: under 13 percent, Healthy: 13-25 percent, Overweight: 25-30 percent, Obees: over 30 percent</p>
+    <p> • 20-40 yrs old: Underfat: under 8 percent, Healthy: 8-19 percent, Overweight: 19-25 percent, Obese: over 25 percent</p>
+    <p> • 31-60 yrs old: Underfat: under 11 percent, Healthy: 11-22 percent, Overweight: 22-27 percent, Obese: over 27 percent</p>
+    <p> • 61-79 yrs old: Underfat: under 13 percent, Healthy: 13-25 percent, Overweight: 25-30 percent, Obees: over 30 percent</p>
+    <br><br>
+    <div id="border">
+        <div id="cal">
+            BMI:
+            <input id = "BMI" type="text">
+            <br><br>
+            Age :
+            <input id = "Age" type="text">
+            <br><br>
+            Gender:
+            <input id = "Gender" type="text">
+            <br><br>
+            <button type="submit" onclick="Calculate_BFP()">Calculate!</button>
+            <br><br>
+            <p id="results"></p>
+        </div>
+    </div>
+   
 </body>
 </html>
