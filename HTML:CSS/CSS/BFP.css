@@ -1,0 +1,33 @@
+.Header{
+    font-size: 40px;
+    font-weight: 300;
+    height: 100;
+}
+.line {
+    text-align: center
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p{
+    font-size: 20;
+}
+
+#border{
+    height: 340px;
+    align-items: center;
+    border-style: groove;
+}
+
+#cal {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+#results {
+    margin-right: 250px;
+}
