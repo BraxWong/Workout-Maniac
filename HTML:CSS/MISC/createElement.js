@@ -1,4 +1,5 @@
 const listEl = document.getElementById("list")
+const something = document.getElementById('counter')
 let counter = 0
 function populate() {
     counter++
@@ -8,4 +9,9 @@ function populate() {
     listitems.appendChild(text)
     //Add the list item to the list
     listEl.appendChild(listitems)
+}
+
+function depopulate() {
+    counter--
+    something.innerHTML = counter
 }
