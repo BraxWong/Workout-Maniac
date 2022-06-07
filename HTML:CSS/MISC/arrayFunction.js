@@ -23,4 +23,6 @@ const filteredArray = arr.filter(element => element < 5) //This filters out elem
 
 const filteredar = friend.filter(element => element.age > 16) //This filters out age that is less than 16
 
-console.log(arr,filteredar)
+const findar = friend.find(element => element.name === 'x') //This finds the specific thing from the array and return it
+
+console.log(arr,filteredar, findar)
