@@ -26,5 +26,10 @@ function TemporaryName() {
         </div>
     )
 }
+function main() {
+    return (
+        <h1>Hello World</h1>
+    )
+}
 const divroot = document.getElementById('root')
-ReactDOM.render(<TemporaryName />, divroot)
+ReactDOM.render(<TemporaryName/>, divroot)

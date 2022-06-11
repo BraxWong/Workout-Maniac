@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.title {
+    margin-left: 10px;
+    color: rgb(17, 216, 235);
+}
+
+.react_course {
+    color: white;
+    margin-left: 680;
+    font-size: 23;
+}
