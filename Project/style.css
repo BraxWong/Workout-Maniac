@@ -16,12 +16,14 @@ body {
 .title {
     margin-left: 10px;
     color: rgb(17, 216, 235);
+    font-weight: 700;
 }
 
 .react_course {
     color: white;
     margin-left: 680;
     font-size: 23;
+    font-family: Inter, sans-serif;
 }
 
 .body_div{
@@ -33,6 +35,7 @@ body {
     color: rgba(255, 255, 255, 0.761);
     margin-left: 20;
     font-size: 50;
+    font-family: Inter, sans-serif;
 }
 
 .list {
@@ -49,4 +52,5 @@ ul li::before{
 
 ul >li {
     margin-top: 15;
+    font-family: Inter, sans-serif;
 }
