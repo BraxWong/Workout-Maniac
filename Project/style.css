@@ -4,6 +4,8 @@
 
 body {
     margin: 0;
+    background-image: "React-icon.svg.png";
+    background-position: 300px;
 }
 
 .navigation {
