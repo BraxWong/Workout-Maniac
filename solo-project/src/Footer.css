@@ -1,0 +1,6 @@
+.main_foot{
+    display: flex;
+    align-items: center;
+    background-color: rgb(54, 50, 50);
+    justify-content: space-between;
+}
