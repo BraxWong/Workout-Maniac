@@ -9,13 +9,13 @@ You will also find a BMI and Body Fat Percentage calculator.
 
 # BMI Calculator
 
-![BMI IMAGE](/BMI1.png)
+[Link to BMI Imag1]()
 This section introduces you to the idea of Body Mass Index and teaches you how to calculate it by hand. It will explain the formula in an easy manner so everyone can understand it.
 
-![BMI IMAGE2](/BMI2.png)
+![BMI IMAGE2](/BMI2.jpg)
 This section will allow you to input your height(in CM) and weight(in KG), after pressing the **calculate BMI** button, it will automatically calculate your BMI and print it out on the screen. There is also a bar at the bottom, indicating whether you are healthy or not based on the your BMI.
 
-![BMI IMAGE3](/BMI3.png)
+![BMI IMAGE3](/BMI3.jpg)
 The last section will tell the users who should not be using the BMI calculate since it might cause some confusion if they obtained a result that might lead to hysteria.
 
 
